@@ -1,0 +1,12 @@
+C:\Users\USER\source\repos\FAQ\src\FAQ\FAQ.Entities\bin\Debug\net6.0\FAQ.Entities.deps.json
+C:\Users\USER\source\repos\FAQ\src\FAQ\FAQ.Entities\bin\Debug\net6.0\FAQ.Entities.dll
+C:\Users\USER\source\repos\FAQ\src\FAQ\FAQ.Entities\bin\Debug\net6.0\FAQ.Entities.pdb
+C:\Users\USER\source\repos\FAQ\src\FAQ\FAQ.Entities\obj\Debug\net6.0\FAQ.Entities.csproj.AssemblyReference.cache
+C:\Users\USER\source\repos\FAQ\src\FAQ\FAQ.Entities\obj\Debug\net6.0\FAQ.Entities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\USER\source\repos\FAQ\src\FAQ\FAQ.Entities\obj\Debug\net6.0\FAQ.Entities.AssemblyInfoInputs.cache
+C:\Users\USER\source\repos\FAQ\src\FAQ\FAQ.Entities\obj\Debug\net6.0\FAQ.Entities.AssemblyInfo.cs
+C:\Users\USER\source\repos\FAQ\src\FAQ\FAQ.Entities\obj\Debug\net6.0\FAQ.Entities.csproj.CoreCompileInputs.cache
+C:\Users\USER\source\repos\FAQ\src\FAQ\FAQ.Entities\obj\Debug\net6.0\FAQ.Entities.dll
+C:\Users\USER\source\repos\FAQ\src\FAQ\FAQ.Entities\obj\Debug\net6.0\refint\FAQ.Entities.dll
+C:\Users\USER\source\repos\FAQ\src\FAQ\FAQ.Entities\obj\Debug\net6.0\FAQ.Entities.pdb
+C:\Users\USER\source\repos\FAQ\src\FAQ\FAQ.Entities\obj\Debug\net6.0\ref\FAQ.Entities.dll
