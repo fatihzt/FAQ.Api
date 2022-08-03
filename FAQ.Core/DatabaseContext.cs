@@ -12,7 +12,7 @@ namespace FAQ.Core
     {
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer(@"Server=FATIH\LOCAL1;Database=FAQandAnswers;Trusted_Connection=true");
+            optionsBuilder.UseSqlServer(@"Server=localhost;Database=FAQ;User Id=sa;Password=mssql1Ipw");
         }
         public DbSet<Question> Question { get; set; }
         public DbSet<Answer> Answer { get; set; }
