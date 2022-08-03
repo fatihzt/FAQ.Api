@@ -1,0 +1,21 @@
+services:
+  db:
+    environment:
+      ACCEPT_EULA: "Y"
+      SA_PASSWORD: s
+    image: mcr.microsoft.com/mssql/server
+  faq.ap:
+    build:
+      context: C:\Users\USER\source\repos\FAQ\src\FAQ
+      dockerfile: FAQ.Apı/Dockerfile
+    container_name: faqapi
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+    image: faqap
+    ports:
+    - published: 8000
+      target: 80
+    volumes:
+    - C:\Users\USER\AppData\Roaming\ASP.NET\Https:/root/.aspnet/https:ro
+    - C:\Users\USER\AppData\Roaming\Microsoft\UserSecrets:/root/.microsoft/usersecrets:ro
+version: '3.4'
