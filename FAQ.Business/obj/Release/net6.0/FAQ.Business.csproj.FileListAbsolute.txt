@@ -1,0 +1,17 @@
+C:\Users\USER\source\repos\FAQ\src\FAQ\FAQ.Business\bin\Release\net6.0\FAQ.Business.deps.json
+C:\Users\USER\source\repos\FAQ\src\FAQ\FAQ.Business\bin\Release\net6.0\FAQ.Business.dll
+C:\Users\USER\source\repos\FAQ\src\FAQ\FAQ.Business\bin\Release\net6.0\FAQ.Business.pdb
+C:\Users\USER\source\repos\FAQ\src\FAQ\FAQ.Business\bin\Release\net6.0\FAQ.Core.dll
+C:\Users\USER\source\repos\FAQ\src\FAQ\FAQ.Business\bin\Release\net6.0\FAQ.Entities.dll
+C:\Users\USER\source\repos\FAQ\src\FAQ\FAQ.Business\bin\Release\net6.0\FAQ.Core.pdb
+C:\Users\USER\source\repos\FAQ\src\FAQ\FAQ.Business\bin\Release\net6.0\FAQ.Entities.pdb
+C:\Users\USER\source\repos\FAQ\src\FAQ\FAQ.Business\obj\Release\net6.0\FAQ.Business.csproj.AssemblyReference.cache
+C:\Users\USER\source\repos\FAQ\src\FAQ\FAQ.Business\obj\Release\net6.0\FAQ.Business.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\USER\source\repos\FAQ\src\FAQ\FAQ.Business\obj\Release\net6.0\FAQ.Business.AssemblyInfoInputs.cache
+C:\Users\USER\source\repos\FAQ\src\FAQ\FAQ.Business\obj\Release\net6.0\FAQ.Business.AssemblyInfo.cs
+C:\Users\USER\source\repos\FAQ\src\FAQ\FAQ.Business\obj\Release\net6.0\FAQ.Business.csproj.CoreCompileInputs.cache
+C:\Users\USER\source\repos\FAQ\src\FAQ\FAQ.Business\obj\Release\net6.0\FAQ.Business.csproj.CopyComplete
+C:\Users\USER\source\repos\FAQ\src\FAQ\FAQ.Business\obj\Release\net6.0\FAQ.Business.dll
+C:\Users\USER\source\repos\FAQ\src\FAQ\FAQ.Business\obj\Release\net6.0\refint\FAQ.Business.dll
+C:\Users\USER\source\repos\FAQ\src\FAQ\FAQ.Business\obj\Release\net6.0\FAQ.Business.pdb
+C:\Users\USER\source\repos\FAQ\src\FAQ\FAQ.Business\obj\Release\net6.0\ref\FAQ.Business.dll

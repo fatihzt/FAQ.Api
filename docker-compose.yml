@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  faq.ap:
+    image: ${DOCKER_REGISTRY-}faqap
+    build:
+      context: .
+      dockerfile: FAQ.Apı/Dockerfile

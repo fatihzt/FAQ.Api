@@ -4,6 +4,7 @@ using FAQ.Business.Dto.Answers;
 using FAQ.Entities;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 
 namespace FAQ.Apı.Controllers
 {
@@ -19,7 +20,8 @@ namespace FAQ.Apı.Controllers
         [HttpGet]
         public IActionResult Get()
         {
-            var value = _answerService.GetAll();
+            var value = _answerService.GetAll( includesPath:path=>path.Include(a=>a.Question).ThenInclude(q=>q.Category));
+            //var value = _answerService.GetAll();
             return Ok(value);
         }
         [HttpGet("{id}")]
@@ -34,6 +36,7 @@ namespace FAQ.Apı.Controllers
             Answer entity = new() { Answers=dto.Answers,QuestionId=dto.QuestionId};
             int result = _answerService.Add(entity);
             return Ok(result>0?"Kayıt başarılı":"Kayıt başarısız");
+            
         }
         [HttpPut]
         public IActionResult Put([FromBody]AnswerUpdateRequest dto)

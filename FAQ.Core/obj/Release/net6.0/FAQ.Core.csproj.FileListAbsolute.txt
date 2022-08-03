@@ -1,0 +1,17 @@
+C:\Users\USER\source\repos\FAQ\src\FAQ\FAQ.Core\bin\Release\net6.0\FAQ.Core.deps.json
+C:\Users\USER\source\repos\FAQ\src\FAQ\FAQ.Core\bin\Release\net6.0\FAQ.Core.runtimeconfig.json
+C:\Users\USER\source\repos\FAQ\src\FAQ\FAQ.Core\bin\Release\net6.0\FAQ.Core.dll
+C:\Users\USER\source\repos\FAQ\src\FAQ\FAQ.Core\bin\Release\net6.0\FAQ.Core.pdb
+C:\Users\USER\source\repos\FAQ\src\FAQ\FAQ.Core\bin\Release\net6.0\FAQ.Entities.dll
+C:\Users\USER\source\repos\FAQ\src\FAQ\FAQ.Core\bin\Release\net6.0\FAQ.Entities.pdb
+C:\Users\USER\source\repos\FAQ\src\FAQ\FAQ.Core\obj\Release\net6.0\FAQ.Core.csproj.AssemblyReference.cache
+C:\Users\USER\source\repos\FAQ\src\FAQ\FAQ.Core\obj\Release\net6.0\FAQ.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\USER\source\repos\FAQ\src\FAQ\FAQ.Core\obj\Release\net6.0\FAQ.Core.AssemblyInfoInputs.cache
+C:\Users\USER\source\repos\FAQ\src\FAQ\FAQ.Core\obj\Release\net6.0\FAQ.Core.AssemblyInfo.cs
+C:\Users\USER\source\repos\FAQ\src\FAQ\FAQ.Core\obj\Release\net6.0\FAQ.Core.csproj.CoreCompileInputs.cache
+C:\Users\USER\source\repos\FAQ\src\FAQ\FAQ.Core\obj\Release\net6.0\FAQ.Core.csproj.CopyComplete
+C:\Users\USER\source\repos\FAQ\src\FAQ\FAQ.Core\obj\Release\net6.0\FAQ.Core.dll
+C:\Users\USER\source\repos\FAQ\src\FAQ\FAQ.Core\obj\Release\net6.0\refint\FAQ.Core.dll
+C:\Users\USER\source\repos\FAQ\src\FAQ\FAQ.Core\obj\Release\net6.0\FAQ.Core.pdb
+C:\Users\USER\source\repos\FAQ\src\FAQ\FAQ.Core\obj\Release\net6.0\FAQ.Core.genruntimeconfig.cache
+C:\Users\USER\source\repos\FAQ\src\FAQ\FAQ.Core\obj\Release\net6.0\ref\FAQ.Core.dll
