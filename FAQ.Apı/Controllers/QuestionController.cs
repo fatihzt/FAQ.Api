@@ -28,12 +28,13 @@ namespace FAQ.Apı.Controllers
             var result = _questionService.GetAll(q => q.CategoryId == categoryid,path=>path.Include(q=>q.Category));
             return Ok(result);
         }
-        [HttpGet("{id}")]
+        [HttpGet("Get/ById/{id}")]
         public IActionResult GetById(int id)
         {
-            Question result = _questionService.Get(q => q.Id == id);
+            Question result = _questionService.Get(q => q.Id == id,path=>path.Include(q=>q.Category));
             return Ok(result);
         }
+        
         [HttpPost]
         public IActionResult Post([FromBody] QuestionCreateRequest dto)
         {

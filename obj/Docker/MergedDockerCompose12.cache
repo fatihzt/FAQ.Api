@@ -1,0 +1,29 @@
+services:
+  faq.ap:
+    build:
+      context: C:\Users\USER\source\repos\FAQ\src\FAQ
+      dockerfile: FAQ.Ap²/Dockerfile
+      labels:
+        com.microsoft.created-by: visual-studio
+        com.microsoft.visual-studio.project-name: FAQ.Ap²
+    container_name: faqapi
+    entrypoint: tail -f /dev/null
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+    image: faqap
+    labels:
+      com.microsoft.visual-studio.project-name: FAQ.Ap²
+      com.microsoft.visualstudio.debuggee.arguments: ' --additionalProbingPath /root/.nuget/packages  "/app/FAQ.Ap².dll"'
+      com.microsoft.visualstudio.debuggee.killprogram: /bin/sh -c "if PID=$$(pidof
+        dotnet); then kill $$PID; fi"
+      com.microsoft.visualstudio.debuggee.program: dotnet
+      com.microsoft.visualstudio.debuggee.workingdirectory: /app
+    ports:
+    - published: 8000
+      target: 80
+    tty: true
+    volumes:
+    - C:\Users\USER\vsdbg\vs2017u5:/remote_debugger:rw
+    - C:\Users\USER\AppData\Roaming\ASP.NET\Https:/root/.aspnet/https:ro
+    - C:\Users\USER\AppData\Roaming\Microsoft\UserSecrets:/root/.microsoft/usersecrets:ro
+version: '3.4'

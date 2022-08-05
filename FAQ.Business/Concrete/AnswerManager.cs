@@ -29,9 +29,9 @@ namespace FAQ.Business.Concrete
             return _answerDal.Delete(entity);
         }
 
-        public Answer Get(Expression<Func<Answer, bool>> filter = null)
+        public Answer Get(Expression<Func<Answer, bool>> filter = null, Func<IQueryable<Answer>, IIncludableQueryable<Answer, object>> includesPath = null)
         {
-            return _answerDal.Get(filter);
+            return _answerDal.Get(filter,includesPath);
         }
 
         /*public List<Answer> GetAll(Expression<Func<Answer, bool>> filter = null)

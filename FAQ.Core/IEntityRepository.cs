@@ -11,7 +11,7 @@ namespace FAQ.Core
     public interface IEntityRepository<T> where T : class
     {
         List<T> GetAll(Expression<Func<T,bool>> filter=null, Func<IQueryable<T>, IIncludableQueryable<T, object>> includesPath = null);
-        T Get(Expression<Func<T, bool>> filter = null);
+        T Get(Expression<Func<T, bool>> filter = null,Func<IQueryable<T>, IIncludableQueryable<T, object>> includesPath = null);
         int Add(T entity);
         bool Update(T entity);
         bool Delete(T entity);

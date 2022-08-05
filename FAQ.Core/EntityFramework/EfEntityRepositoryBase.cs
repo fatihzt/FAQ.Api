@@ -35,11 +35,19 @@ namespace FAQ.Core.EntityFramework
             }
         }
 
-        public TEntity Get(Expression<Func<TEntity, bool>> filter = null)
+        public TEntity Get(Expression<Func<TEntity, bool>> filter = null, Func<IQueryable<TEntity>, IIncludableQueryable<TEntity, object>> includesPath = null)
         {
             using (TContext dbcontext = new TContext())
             {
-                return dbcontext.Set<TEntity>().SingleOrDefault(filter);
+                var query = dbcontext.Set<TEntity>().AsQueryable();
+
+                //filtre yoksa herşeyi getir eğer filtre varsa filtreye göre getir.
+                if (filter != null) query = query.Where(filter);
+
+                if (includesPath != null) query = includesPath(query);
+
+                return query.FirstOrDefault();
+                //return dbcontext.Set<TEntity>().Find(filter,includesPath);
             }
         }
 
