@@ -1,0 +1,28 @@
+{
+  "dependencies": {
+    "mssql2": {
+      "restored": true,
+      "restoreTime": "2022-08-04T09:05:32.5120513Z"
+    },
+    "mssql3": {
+      "restored": true,
+      "restoreTime": "2022-08-05T06:28:30.6044467Z"
+    },
+    "mssql1": {
+      "restored": true,
+      "restoreTime": "2022-08-04T09:05:34.8809187Z"
+    }
+  },
+  "parameters": {
+    "mssql3.subscriptionId": {
+      "Name": "mssql3.subscriptionId",
+      "Type": "subscription",
+      "Value": "3749c537-797e-4ad5-b807-85a670793113"
+    },
+    "mssql3.resourceGroupName": {
+      "Name": "mssql3.resourceGroupName",
+      "Type": "resourceGroup",
+      "Value": "rgApi"
+    }
+  }
+}

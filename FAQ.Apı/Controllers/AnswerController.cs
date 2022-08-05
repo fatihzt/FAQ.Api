@@ -19,7 +19,7 @@ namespace FAQ.Apı.Controllers
         }
         [HttpGet]
         public IActionResult Get()
-        {
+         {
             var value = _answerService.GetAll( includesPath:path=>path.Include(a=>a.Question).ThenInclude(q=>q.Category));
             //var value = _answerService.GetAll();
             return Ok(value);

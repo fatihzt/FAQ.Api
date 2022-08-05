@@ -11,8 +11,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace FAQ.Core.Migrations
 {
     [DbContext(typeof(DatabaseContext))]
-    [Migration("20220803120335_DockerFirstTry")]
-    partial class DockerFirstTry
+    [Migration("20220803130159_AzureFirst")]
+    partial class AzureFirst
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {

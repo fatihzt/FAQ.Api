@@ -4,7 +4,7 @@
 
 namespace FAQ.Core.Migrations
 {
-    public partial class DockerFirstTry : Migration
+    public partial class AzureFirst : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
