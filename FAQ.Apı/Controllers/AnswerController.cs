@@ -22,7 +22,7 @@ namespace FAQ.Apı.Controllers
          {
             //var value = _answerService.GetAll(includesPath: path =>path.Include(a => a.Question).ThenInclude(c=>c.Category));
             //var value = _answerService.GetAll( includesPath:path=>path.Include(a=>a.Question).ThenInclude(q=>q.Category));
-            var value = _answerService.GetAll(includesPath: path => path.Include(a => a.Question));
+            var value = _answerService.GetAll(includesPath: path => path.Include(a => a.Question).ThenInclude(c=>c.Category));
             //var value = _answerService.GetAll();
             return Ok(value);
         }
