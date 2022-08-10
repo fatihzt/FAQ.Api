@@ -45,6 +45,7 @@ namespace FAQ.Apı.Controllers
         [HttpPut]
         public IActionResult Put([FromBody] QuestionUpdateRequest dto)
         {
+            //güncelleme
             Question entity = new() { Id = dto.Id, QuestionDetail = dto.QuestionDetail, CategoryId = dto.CategoryId,AnswerDetail=dto.AnswerDetail };
             bool result = _questionService.Update(entity);
             return Ok(result ? entity : null);
@@ -52,6 +53,7 @@ namespace FAQ.Apı.Controllers
         [HttpDelete("{id}")]
         public IActionResult Delete(int id)
         {
+            //silme
             bool result = _questionService.Delete(new() { Id = id });
             return Ok(result);
         }
