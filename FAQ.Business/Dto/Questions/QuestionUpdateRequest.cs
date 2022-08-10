@@ -10,6 +10,7 @@ namespace FAQ.Business.Dto.Questions
     {
         public int Id { get; set; }
         public string QuestionDetail { get; set; }
+        public string AnswerDetail { get; set; }
         public int CategoryId { get; set; }
     }
 }

@@ -13,6 +13,7 @@ namespace FAQ.Entities
         [Key,DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int Id { get; set; }
         public string QuestionDetail { get; set; }
+        public string AnswerDetail { get; set; }
         public int CategoryId { get; set; }
         [ForeignKey("CategoryId")]
         public virtual Category Category { get; set; }

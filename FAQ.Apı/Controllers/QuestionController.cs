@@ -38,14 +38,14 @@ namespace FAQ.Apı.Controllers
         [HttpPost]
         public IActionResult Post([FromBody] QuestionCreateRequest dto)
         {
-            Question entity = new() { QuestionDetail = dto.QuestionDetail, CategoryId = dto.CategoryId };
+            Question entity = new() { QuestionDetail = dto.QuestionDetail, CategoryId = dto.CategoryId,AnswerDetail=dto.AnswerDetail };
             int result = _questionService.Add(entity);
             return Ok(result > 0 ? "Kayıt başarılı" : "Kayıt başarısız");
         }
         [HttpPut]
         public IActionResult Put([FromBody] QuestionUpdateRequest dto)
         {
-            Question entity = new() { Id = dto.Id, QuestionDetail = dto.QuestionDetail, CategoryId = dto.CategoryId };
+            Question entity = new() { Id = dto.Id, QuestionDetail = dto.QuestionDetail, CategoryId = dto.CategoryId,AnswerDetail=dto.AnswerDetail };
             bool result = _questionService.Update(entity);
             return Ok(result ? entity : null);
         }

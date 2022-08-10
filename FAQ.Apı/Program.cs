@@ -15,8 +15,6 @@ builder.Services.AddScoped<IQuestionService, QuestionManager>();
 builder.Services.AddScoped<IQuestionDal, EfQuestionDal>();
 builder.Services.AddScoped<ICategoryService, CategoryManager>();
 builder.Services.AddScoped<ICategoryDal, EfCategoryDal>();
-builder.Services.AddScoped<IAnswerService, AnswerManager>();
-builder.Services.AddScoped<IAnswerDal,EfAnswerDal>();
 
 
 var app = builder.Build();

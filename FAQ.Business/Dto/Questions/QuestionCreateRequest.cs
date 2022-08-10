@@ -9,6 +9,7 @@ namespace FAQ.Business.Dto.Questions
     public class QuestionCreateRequest
     {
         public string QuestionDetail { get; set; }
+        public string AnswerDetail { get; set; }
         public int CategoryId { get; set; }
     }
 }
